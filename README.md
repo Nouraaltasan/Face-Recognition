@@ -1,14 +1,14 @@
-# Face Detection and Image Captioning App
+# 🖼️ Face Detection & Image Captioning App
 
-## 📌 وصف
-تطبيق بسيط باستخدام Streamlit:
-- يرفع المستخدم صورة
-- يتم كشف الوجوه باستخدام OpenCV
-- يتم توليد وصف باستخدام نموذج BLIP من Hugging Face
-- يتم عرض الصورة الأصلية، مع مربعات على الوجوه، والوصف
+A simple web app built with **Streamlit**, **OpenCV**, and **Hugging Face**.
 
-## 🚀 طريقة التشغيل
+This app allows users to upload or capture an image, detect faces, and generate an AI-generated caption for the image.
 
-1. تثبيت المتطلبات:
+---
+
+## 🚀 How to Install and Run
+
+1. Clone the repository:
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/Nouraaltasan/Face-Recognition.git
+cd Face-Recognition
