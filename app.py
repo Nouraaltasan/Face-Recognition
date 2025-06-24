@@ -1,4 +1,4 @@
-# Importing required libraries
+# Importing required libraries ـ
 import streamlit as st
 import cv2
 import numpy as np
@@ -6,7 +6,7 @@ from PIL import Image
 from transformers import BlipProcessor, BlipForConditionalGeneration
 import torch
 
-# Set page title and layout
+# Set page title and layout 
 st.set_page_config(page_title="Face & Caption AI", layout="centered")
 
 # Display the app title and instructions using HTML
@@ -94,6 +94,6 @@ if image_pil is not None:
         unsafe_allow_html=True
     )
 
-# If no image is uploaded or captured, show a prompt
+# If no image is uploaded or captured, show  prompt
 else:
     st.info("⬆️ Please upload an image or take a picture to get started.")
